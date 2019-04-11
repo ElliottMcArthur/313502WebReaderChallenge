@@ -1,0 +1,26 @@
+﻿<Window x:Class="_313502WebReaderChallenge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_313502WebReaderChallenge"
+        mc:Ignorable="d"
+        Title="Web Reader" Height="350" Width="525">
+    <StackPanel>
+        <RadioButton x:Name="JanuaryRadio" Content="January Sales"/>
+        <RadioButton x:Name="FebuaryRadio" Content="Febuary Sales"/>
+        <RadioButton x:Name="MarchRadio" Content="March Sales"/>
+        <RadioButton x:Name="AprilRadio" Content="April Sales"/>
+        <RadioButton x:Name="MayRadio" Content="May Sales"/>
+        <RadioButton x:Name="JuneRadio" Content="June Sales"/>
+        <RadioButton x:Name="JulyRadio" Content="July Sales"/>
+        <RadioButton x:Name="AugustRadio" Content="August Sales" />
+        <RadioButton x:Name="SeptemberRadio" Content="September Sales" />
+        <RadioButton x:Name="OctoberRadio" Content="October Sales"/>
+        <RadioButton x:Name="NovmeberRadio" Content="November Sales"/>
+        <RadioButton x:Name="DecemberRadio" Content="December Sales"/>
+        <Button x:Name="TwentySeventeenbutton" Content="Click to see 2017 Sales" Click="TwentySeventeenbutton_Click" />
+        <Button x:Name="TwentyEighteenbutton" Content="Click to see 2018 Sales" Click="TwentyEighteenbutton_Click" />
+        <Label x:Name="lblOutput" />
+    </StackPanel>
+</Window>
